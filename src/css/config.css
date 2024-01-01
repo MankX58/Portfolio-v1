@@ -11,7 +11,7 @@
 
     .btn {
         @apply
-        w-32 h-10 bg-black bg-opacity-15 relative rounded-[15px] border-black border-[1px]  mb-[5rem]
+        w-32 h-10 bg-slate-500 bg-opacity-15 relative rounded-[15px] border-black border-[1px]  mb-[5rem]
     }
 }
 
