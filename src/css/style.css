@@ -656,259 +656,108 @@ video {
   left: 87%;
 }
 
+.left-\[95\%\] {
+  left: 95%;
+}
+
 .right-\[90rem\] {
   right: 90rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-\[38rem\] {
-  top: 38rem;
-}
-
-.top-\[4rem\] {
-  top: 4rem;
-}
-
-.top-\[5px\] {
-  top: 5px;
-}
-
-.top-\[105px\] {
-  top: 105px;
-}
-
-.top-52 {
-  top: 13rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-3 {
-  top: 0.75rem;
 }
 
 .top-2 {
   top: 0.5rem;
 }
 
-.right-12 {
-  right: 3rem;
+.top-5 {
+  top: 1.25rem;
 }
 
-.left-\[90\%\] {
-  left: 90%;
-}
-
-.left-\[20\%\] {
-  left: 20%;
-}
-
-.left-\[50\%\] {
-  left: 50%;
-}
-
-.left-\[95\%\] {
-  left: 95%;
-}
-
-.top-\[50rem\] {
-  top: 50rem;
-}
-
-.top-\[75rem\] {
-  top: 75rem;
+.top-\[45rem\] {
+  top: 45rem;
 }
 
 .top-\[74rem\] {
   top: 74rem;
 }
 
+.top-\[55rem\] {
+  top: 55rem;
+}
+
+.top-\[60rem\] {
+  top: 60rem;
+}
+
+.top-\[59rem\] {
+  top: 59rem;
+}
+
+.top-\[9rem\] {
+  top: 9rem;
+}
+
+.top-\[3rem\] {
+  top: 3rem;
+}
+
+.top-\[2rem\] {
+  top: 2rem;
+}
+
+.top-\[2\.5rem\] {
+  top: 2.5rem;
+}
+
+.top-\[2\.2rem\] {
+  top: 2.2rem;
+}
+
 .z-10 {
   z-index: 10;
-}
-
-.float-start {
-  float: inline-start;
-}
-
-.float-right {
-  float: right;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
 }
 
-.mb-\[2rem\] {
-  margin-bottom: 2rem;
-}
-
 .mb-\[1\.5rem\] {
   margin-bottom: 1.5rem;
-}
-
-.inline {
-  display: inline;
 }
 
 .flex {
   display: flex;
 }
 
-.inline-flex {
-  display: inline-flex;
-}
-
-.size-14 {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-.size-2 {
-  width: 0.5rem;
-  height: 0.5rem;
-}
-
-.size-16 {
-  width: 4rem;
-  height: 4rem;
-}
-
 .h-16 {
   height: 4rem;
-}
-
-.h-\[35rem\] {
-  height: 35rem;
-}
-
-.h-\[42rem\] {
-  height: 42rem;
-}
-
-.h-\[8rem\] {
-  height: 8rem;
-}
-
-.h-\[12rem\] {
-  height: 12rem;
-}
-
-.h-\[16rem\] {
-  height: 16rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .h-7 {
   height: 1.75rem;
 }
 
-.w-full {
-  width: 100%;
+.h-\[16rem\] {
+  height: 16rem;
 }
 
-.w-\[30rem\] {
-  width: 30rem;
+.h-\[35rem\] {
+  height: 35rem;
 }
 
-.w-\[35rem\] {
-  width: 35rem;
-}
-
-.w-\[40rem\] {
-  width: 40rem;
-}
-
-.w-\[45rem\] {
-  width: 45rem;
-}
-
-.w-\[2rem\] {
-  width: 2rem;
-}
-
-.w-\[4rem\] {
-  width: 4rem;
-}
-
-.w-\[8rem\] {
-  width: 8rem;
-}
-
-.w-\[12rem\] {
-  width: 12rem;
-}
-
-.w-\[16rem\] {
-  width: 16rem;
-}
-
-.w-\[45\] {
-  width: 45;
-}
-
-.w-\[50rem\] {
-  width: 50rem;
-}
-
-.w-\[60rem\] {
-  width: 60rem;
-}
-
-.w-6 {
-  width: 1.5rem;
+.h-auto {
+  height: auto;
 }
 
 .w-7 {
   width: 1.75rem;
 }
 
-.max-w-\[60rem\] {
-  max-width: 60rem;
+.w-\[16rem\] {
+  width: 16rem;
 }
 
-.max-w-\[60\%rem\] {
-  max-width: 60%rem;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
-.max-w-\[70\%\] {
-  max-width: 70%;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
-}
-
-.max-w-\[75\%\] {
-  max-width: 75%;
-}
-
-.max-w-\[68\%\] {
-  max-width: 68%;
-}
-
-.max-w-\[65rem\] {
-  max-width: 65rem;
-}
-
-.max-w-\[63rem\] {
-  max-width: 63rem;
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[50rem\] {
@@ -931,36 +780,20 @@ video {
   align-items: center;
 }
 
-.items-stretch {
-  align-items: stretch;
-}
-
 .justify-center {
   justify-content: center;
-}
-
-.gap-9 {
-  gap: 2.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .gap-8 {
   gap: 2rem;
 }
 
-.overflow-auto {
-  overflow: auto;
+.gap-9 {
+  gap: 2.25rem;
 }
 
-.text-wrap {
-  text-wrap: wrap;
+.overflow-auto {
+  overflow: auto;
 }
 
 .bg-gray-700 {
@@ -995,12 +828,12 @@ video {
   padding: 1rem;
 }
 
-.p-\[2rem\] {
-  padding: 2rem;
-}
-
 .p-\[5rem\] {
   padding: 5rem;
+}
+
+.pb-14 {
+  padding-bottom: 3.5rem;
 }
 
 .pb-4 {
@@ -1013,26 +846,6 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
-}
-
-.pb-\[3rem\] {
-  padding-bottom: 3rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pb-14 {
-  padding-bottom: 3.5rem;
 }
 
 .text-center {
@@ -1051,6 +864,16 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1085,11 +908,6 @@ video {
 .shadow-slate-800 {
   --tw-shadow-color: #1e293b;
   --tw-shadow: var(--tw-shadow-colored);
-}
-
-.blur-xl {
-  --tw-blur: blur(24px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .backdrop-blur-xl {
