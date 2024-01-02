@@ -9,6 +9,9 @@ module.exports = {
       translate: {
         50: "43rem",
       },
+      fontFamily: {
+        Onest: "Onest",
+      },
     },
   },
   plugins: [],

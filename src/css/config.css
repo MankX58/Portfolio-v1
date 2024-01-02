@@ -6,12 +6,22 @@
 @layer components {
     .card {
        @apply
-        w-60 min-w-60 h-auto max-h-[29rem] bg-slate-500 relative top-8 left-4 rounded-[15px] overflow-auto no-scrollbar hover:scale-110 hover:translate-x-0 hover:translate-y-4 transition hover:shadow-lg hover:shadow-black items-center  border-black border-[1px] justify-center content-center 
+        w-[20rem] min-w-[20rem] h-auto max-h-[29rem] bg-slate-500 relative top-8 left-4 rounded-[15px] overflow-auto no-scrollbar hover:scale-110 hover:translate-x-0 hover:translate-y-4 transition hover:shadow-lg hover:shadow-black items-center  border-black border-[1px] justify-center content-center overflow-x-hidden
     }
 
     .btn {
         @apply
         w-32 h-10 bg-slate-500 bg-opacity-15  rounded-[15px] border-black border-[1px]  mb-[5rem]
+    }
+
+    .btn-card {
+        @apply
+        absolute right-[5.7rem] hover:shadow-lg hover:shadow-slate-400 transition
+    }
+
+    .img-card {
+        @apply
+        w-full h-[11rem] max-h-[11rem] hover:scale-110 transition
     }
 }
 

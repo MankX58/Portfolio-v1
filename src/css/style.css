@@ -584,12 +584,13 @@ video {
   left: 1rem;
   height: auto;
   max-height: 29rem;
-  width: 15rem;
-  min-width: 15rem;
+  width: 20rem;
+  min-width: 20rem;
   align-content: center;
   align-items: center;
   justify-content: center;
   overflow: auto;
+  overflow-x: hidden;
   border-radius: 15px;
   border-width: 1px;
   --tw-border-opacity: 1;
@@ -639,6 +640,41 @@ video {
   --tw-bg-opacity: 0.15;
 }
 
+.btn-card {
+  position: absolute;
+  right: 5.7rem;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.btn-card:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow-color: #94a3b8;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.img-card {
+  height: 11rem;
+  max-height: 11rem;
+  width: 100%;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.img-card:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .absolute {
   position: absolute;
 }
@@ -659,10 +695,6 @@ video {
   left: 95%;
 }
 
-.right-\[3\.5rem\] {
-  right: 3.5rem;
-}
-
 .right-\[90rem\] {
   right: 90rem;
 }
@@ -673,6 +705,10 @@ video {
 
 .top-\[2\.2rem\] {
   top: 2.2rem;
+}
+
+.top-\[38rem\] {
+  top: 38rem;
 }
 
 .top-\[74rem\] {
@@ -697,6 +733,10 @@ video {
 
 .mb-\[1rem\] {
   margin-bottom: 1rem;
+}
+
+.mb-\[4rem\] {
+  margin-bottom: 4rem;
 }
 
 .ml-\[2rem\] {
@@ -867,6 +907,10 @@ video {
   text-align: justify;
 }
 
+.font-Onest {
+  font-family: Onest;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -884,6 +928,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-semibold {
@@ -967,19 +1015,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:shadow-lg:hover {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:shadow-slate-400:hover {
-  --tw-shadow-color: #94a3b8;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-@media (min-width: 1024px) {
-  .lg\:px-\[18rem\] {
+@media (min-width: 1280px) {
+  .xl\:px-\[18rem\] {
     padding-left: 18rem;
     padding-right: 18rem;
   }
