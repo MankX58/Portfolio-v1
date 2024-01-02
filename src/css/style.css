@@ -779,6 +779,14 @@ video {
   margin-bottom: .3rem;
 }
 
+.mb-\[\.2rem\] {
+  margin-bottom: .2rem;
+}
+
+.mb-\[20rem\] {
+  margin-bottom: 20rem;
+}
+
 .flex {
   display: flex;
 }
@@ -861,6 +869,14 @@ video {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
+}
+
+.gap-\[500px\] {
+  gap: 500px;
 }
 
 .overflow-auto {
