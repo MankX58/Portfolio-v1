@@ -1,1 +1,1 @@
-Holi
+Este es un proyecto de porfolio que he querido hacer desde hace bastante tiempo, contiene información básica sobre mi y acerca de mis proyectos pasados, está en una etapa de desarrollo temprana pero empieza a tomar forma
