@@ -23,6 +23,7 @@
         @apply
         w-full h-[11rem] max-h-[11rem] hover:scale-110 transition
     }
+
 }
 
 @layer utilities {
@@ -35,5 +36,9 @@
     .no-scrollbar {
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
+  }
+
+  .bg-vw {
+        background-size: 100vw;
   }
 }
