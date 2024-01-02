@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>TailwindCSS #1</title>
   </head>
-  <body class="bg-gray-700 no-scrollbar">
+  <body class="bg-gray-700 no-scrollbar font-Onest">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Onest&display=swap");
+    </style>
     <!-- hola -->
 
     <!-- <header
@@ -32,7 +35,7 @@
     </header> -->
 
     <article
-      class="w-full relative h-auto bg-gradient-to-b from-slate-700 via-slate-900 to-slate-900 lg:px-[18rem] py-[5rem] px-[5rem]"
+      class="w-full relative h-auto bg-gradient-to-b from-slate-700 via-slate-900 to-slate-900 xl:px-[18rem] py-[5rem] px-[5rem]"
     >
       <?xml version="1.0" ?><svg
         height="30"
@@ -45,9 +48,7 @@
           d="M553 1399l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23t-10 23zm591-1067l-373 1291q-4 13-15.5 19.5t-23.5 2.5l-62-17q-13-4-19.5-15.5t-2.5-24.5l373-1291q4-13 15.5-19.5t23.5-2.5l62 17q13 4 19.5 15.5t2.5 24.5zm657 651l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23t-10 23z"
         />
       </svg>
-      <h1 class="text-slate-50 font-semibold text-2xl pb-[1rem]">
-        Acerca de mí
-      </h1>
+      <h1 class="text-slate-50 font-medium text-2xl pb-[1rem]">Acerca de mí</h1>
 
       <p class="text-gray-400 mb-[1.5rem] max-w[70rem]">
         Soy Manuel, un apasionado del desarrollo web. Desde que comencé en este
@@ -97,9 +98,13 @@
         class="flex gap-9 flex-nowrap shrink-1 overflow-auto top-5 pb-4 pr-8 no-scrollbar transition-direction h-[35rem] relative"
         id="container"
       >
+        <!--  -->
+        <!-- Calculadora -->
         <section class="card">
           <div>
-            <img class="w-full" src="/img/landscape 1.webp" alt="#" />
+            <a href="/img/calc_marte.png"
+              ><img class="img-card" src="/img/calc_marte.png " alt="#"
+            /></a>
             <div class="p-4 items-center justify-center object-center">
               <h1 class="font-semibold text-2xl">Hola</h1>
               <p class="text-justify mb-4">
@@ -109,23 +114,19 @@
                 consequatur molestias odio? Ea, ullam!
               </p>
 
-              <div class="text-center">
-                <button
-                  class="btn absolute right-[3.5rem] hover:shadow-lg hover:shadow-slate-400 transition"
-                >
-                  ae
-                </button>
+              <div class="text-center items-center justify-center">
+                <button class="btn btn-card">ae</button>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- Agregar contenido -->
+        <!-- Spotify -->
         <section class="card">
-          <img src="/img/gatoskato.jpg" alt="" />
-          <div class="p-4">
+          <img src="/img/Spotify.png" alt="" class="img-card" />
+          <div class="p-4 mb-[4rem]">
             <h1 class="font-semibold text-2xl">Cato Skate</h1>
-            <p class="text-justify mb-4">
+            <p class="text-justify">
               Los gatos son conocidos por su agilidad y destreza, por lo que no
               es de extrañar que la imagen de un gato en un skate resulte tan
               llamativa. Imagina a un gato deslizándose con gracia sobre un
@@ -136,14 +137,60 @@
               que reflejaría la naturaleza curiosa y activa de los gatos.
             </p>
           </div>
+          <button class="btn btn-card top-[38rem]">ae</button>
         </section>
 
-        <section class="card"></section>
-        <section class="card"></section>
-        <section class="card"></section>
-        <section class="card"></section>
+        <!-- Calamity  -->
+        <section class="card">
+          <img src="/img/Calamity.png" alt="" class="img-card" />
+          <div class="p-4">
+            <h1 class="font-semibold text-2xl">Cato Skate</h1>
+            <p class="text-justify">
+              Los gatos son conocidos por su agilidad y destreza, por lo que no
+              es de extrañar que la imagen de un gato en un skate resulte tan
+              llamativa. Imagina a un gato deslizándose con gracia sobre un
+              skate, mostrando su equilibrio
+            </p>
+          </div>
+          <button class="btn btn-card">ae</button>
+        </section>
 
-        <!-- Organizar posición (Buscar manera de mejorar el scroll) -->
+        <!-- Blog 1 -->
+        <section class="card">
+          <img src="/img/Blog_1.png" alt="" class="img-card" />
+          <div class="p-4">
+            <h1 class="font-semibold text-2xl">Cato Skate</h1>
+            <p class="text-justify">
+              Los gatos son conocidos por su agilidad y destreza, por lo que no
+              es de extrañar que la imagen de un gato en un skate resulte tan
+              llamativa. Imagina a un gato deslizándose con gracia sobre un
+              skate, mostrando su equilibrio
+            </p>
+          </div>
+          <button class="btn btn-card">ae</button>
+        </section>
+
+        <!-- Blog 2 -->
+        <section class="card">
+          <img src="/img/Blog_2.png" alt="" class="img-card" />
+          <div class="p-4">
+            <h1 class="font-semibold text-2xl">Cato Skate</h1>
+            <p class="text-justify">
+              Los gatos son conocidos por su agilidad y destreza, por lo que no
+              es de extrañar que la imagen de un gato en un skate resulte tan
+              llamativa. Imagina a un gato deslizándose con gracia sobre un
+              skate, mostrando su equilibrio
+            </p>
+          </div>
+          <button class="btn btn-card">ae</button>
+        </section>
+
+        <!-- Organizar posición (Buscar manera de mejorar el scroll)
+          
+             Actualización 01/01/2024
+              No encontrado -->
+
+        <!--  -->
       </main>
       <div class="right-[90rem] top-[74rem] pb-14">
         <button
